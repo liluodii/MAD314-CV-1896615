@@ -12,6 +12,10 @@ STEPS :
 	$git add report.txt
 6.COMMIT CHANGES 
 	$git commit -m " report.txt is commited"
+7.ADD CV USING :
+	$git add LILU_ODEDRA.PDF
+8.COMMIT CHANGES 
+	$git commit -m " CV is commited"
 7.Fetch information using
 	$git fetch 
 8.push Files to git hub Repository
