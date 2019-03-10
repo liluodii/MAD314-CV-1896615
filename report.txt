@@ -1,22 +1,23 @@
 STEPS :
-
 1.COPY INSTRUCTION.TXT
+	$ git clone https://github.com/liluodii/MAD314-CV-1896615.git
+2.COPY INSTRUCTION.TXT TO MAD314-CV-1896615
 	$ git clone https://github.com/richbighouse/mad-314-cv-assignment.git
-2. CREATE REPORT.TXT
+3. CREATE REPORT.TXT
 	vi report.txt
-3.ADD INSTRUCTION FILE USING :
+4.ADD INSTRUCTION FILE USING :
 	$git add instruction.txt
-4.COMMIT CHANGES 
+5.COMMIT CHANGES 
 	$git commit -m " instruction.txt is commited"
-5.ADD REPORT FILE USING :
+6.ADD REPORT FILE USING :
 	$git add report.txt
-6.COMMIT CHANGES 
+7.COMMIT CHANGES 
 	$git commit -m " report.txt is commited"
-7.ADD CV USING :
+8.ADD CV USING :
 	$git add LILU_ODEDRA.PDF
-8.COMMIT CHANGES 
+9.COMMIT CHANGES 
 	$git commit -m " CV is commited"
-7.Fetch information using
+10.Fetch information using
 	$git fetch 
-8.push Files to git hub Repository
+11.push Files to git hub Repository
 	$git push
