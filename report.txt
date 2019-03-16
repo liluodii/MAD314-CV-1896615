@@ -1,23 +1,25 @@
-STEPS :
-1.COPY INSTRUCTION.TXT
+STEPS
+
+1.INITIALIZE GIT
+	$ git init
+
+2.COPY INSTRUCTION.TXT
 	$ git clone https://github.com/liluodii/MAD314-CV-1896615.git
-2.COPY INSTRUCTION.TXT TO MAD314-CV-1896615
+
+3.COPY INSTRUCTION.TXT TO MAD314-CV-1896615
 	$ git clone https://github.com/richbighouse/mad-314-cv-assignment.git
-3. CREATE REPORT.TXT
+
+4. CREATE REPORT.TXT
 	vi report.txt
-4.ADD INSTRUCTION FILE USING :
-	$git add instruction.txt
-5.COMMIT CHANGES 
-	$git commit -m " instruction.txt is commited"
-6.ADD REPORT FILE USING :
-	$git add report.txt
-7.COMMIT CHANGES 
-	$git commit -m " report.txt is commited"
-8.ADD CV USING :
-	$git add LILU_ODEDRA.PDF
-9.COMMIT CHANGES 
-	$git commit -m " CV is commited"
-10.Fetch information using
+
+5.ADD INSTRUCTION FILE TO LOCAL REPOSITORY USING :
+	$git add instruction.txt $git add report.txt LILU_ODEDRA.PDF
+
+6.COMMIT Files TO LOCAL REPOSITORY
+	$git commit -m " All Files are commited"
+
+7.FETCH INFORMATION FROM REMOTE REPOSITORY USING :
 	$git fetch 
-11.push Files to git hub Repository
+
+8.PUSH FILES TO GIT HUB REPOSITORY USING :
 	$git push
